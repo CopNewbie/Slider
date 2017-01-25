@@ -34,3 +34,6 @@ function moveSlider(direccion){
 		'margin-left': -(indicador * $('.fromContainer').width())+'px'
 	});
 }
+setInterval(function(){
+	moveSlider();
+},Time);
